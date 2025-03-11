@@ -198,7 +198,7 @@ ActionButton::make('Open modal window')
 ```php
 ActionButton::make(
     'Button Label',
-    to_page('action_button', fragment: 'doc-content'),
+    '/your-async-url',
 )
     ->async()
     ->inModal(

@@ -198,7 +198,7 @@ If you need to load content in the modal window asynchronously, enable asynchron
 ```php
 ActionButton::make(
     'Button Label',
-    to_page('action_button', fragment: 'doc-content'),
+    '/your-async-url',
 )
     ->async()
     ->inModal(
